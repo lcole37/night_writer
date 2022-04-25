@@ -47,12 +47,7 @@ RSpec.describe Dictionary do
     expect(@dictionary.translate_string('abc')).to eq([['0.', '..', '..'], ['0.', '0.', '..'], ['00', '..', '..']])
   end
 
-  xit 'can translate spaces and punctuation' do
-
+  xit 'can wrap 80 characters' do
+    
   end
-
-  # xit 'can translate capitals' do
-  #
-  # end
-
 end
