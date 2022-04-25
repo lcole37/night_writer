@@ -1,11 +1,10 @@
-class Translator
-  attr_reader :english,
-              #:equivilant #method??
+class Dictionary
+  attr_reader :text,
 
-  def initialize(english)
-    @english = english
+
+  def initialize(text)
+    @text = text
   end
-
 
   def english_braille_dictionary
     translation_hash = {

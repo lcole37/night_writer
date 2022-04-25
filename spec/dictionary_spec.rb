@@ -1,6 +1,7 @@
-require './lib/translator'
+require 'rspec'
+require './lib/dictionary'
 
-describe Translator do
+RSpec.describe Dictionary do
 
   it "exists" do
 
