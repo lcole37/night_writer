@@ -47,7 +47,11 @@ RSpec.describe Dictionary do
     expect(@dictionary.translate_string('abc')).to eq([['0.', '..', '..'], ['0.', '0.', '..'], ['00', '..', '..']])
   end
 
+  xit 'can print a string of characters' do
+
+  end
+
   xit 'can wrap 80 characters' do
-    
+
   end
 end

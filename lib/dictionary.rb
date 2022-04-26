@@ -46,6 +46,5 @@ class Dictionary
     end
     return string
   end
-  
   #to print braille, enumerate each (of string) letter[0], /n, letter[1], /n letter[3]
 end
